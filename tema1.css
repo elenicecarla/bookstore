@@ -1,20 +1,27 @@
-
+body{
+    background-color:azure;
+}
 *{
     font-family: sans-serif;
-    position: center;
 }
 h1{
-    text-align: center;
+    text-align:center;
 }
+h2{
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}
+
 table td{
     border: 2px solid black;
     padding: 10px;
 }
-#aindex{
-    text-align: left; 
-}
+
 #tr{
     background-color: silver;
+    font-weight: bold;
 }
 
 table{
@@ -28,25 +35,26 @@ form{
     width: 900px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
+    text-align:center;
 }
 
 .button{
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     background-color: darkgray;
     color: white;
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 .button: hover{
     cursor: pointer;
 }
 
-.field{
-    margin: 20px;
+.div{
+    margin: 15px;
 }
 .div > label{
     display: block;
@@ -55,6 +63,11 @@ form{
 }
 div > input{
     width: 285 px;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 16px;
+    padding: 4px;
+    background-color: floralwhite;  
+}
+
+textarea{
+    background-color: floralwhite;
 }
